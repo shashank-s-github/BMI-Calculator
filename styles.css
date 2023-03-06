@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding-left: 350px;
+  padding-right: 350px;
+  overflow: auto;
+  box-sizing: border-box;
+  background-color: #ecf2ff;
+}
+div {
+  border: 5px solid black;
+  padding: 40px;
+}
+.top {
+  font-size: 40px;
+  color: white;
+}
+
+.para {
+  font-size: 18px;
+}
+.work {
+  text-align: center;
+  background-color: #3e54ac;
+}
+
+#result {
+  text-align: center;
+}
+
+.weight {
+  font-size: 24px;
+}
+.height {
+  font-size: 24px;
+}
+.foot {
+  color: black;
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 20px;
+}
+#btn {
+  margin-top: 15px;
+  padding: 9px 40px;
+  background-color: black;
+  color: white;
+}
+
+/* CSS MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+  /* Adjust font sizes */
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  /* Center align text */
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+  /* Adjust padding and margins */
+  body {
+    padding: 0.5rem;
+  }
+  .para {
+    margin: 0.5rem;
+  }
+  /* Adjust input field sizes */
+  #weightInput,
+  #heightInput {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  /* Adjust font sizes */
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  /* Adjust padding and margins */
+  body {
+    padding: 1rem;
+  }
+  .para {
+    margin: 1rem;
+  }
+  /* Adjust input field sizes */
+  #weightInput,
+  #heightInput {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+}
